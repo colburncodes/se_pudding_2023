@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  height: 25vh;
+  width: 1000px;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.header__logo {
+  width: 25%;
+  left: -350px;
+  position: relative;
+}
+
+.header__title {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
