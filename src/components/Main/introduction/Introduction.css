@@ -5,11 +5,12 @@
 }
 
 .introduction__title {
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Droid Serif Mono + Montserrat";
   font-style: normal;
   font-size: 25px;
   font-weight: 500;
   line-height: 20px;
+  color: #F48498;
 }
 
 .introduction__descrition-containeer {
@@ -17,8 +18,9 @@
 }
 
 .introduction__description {
-  font-family: 'Times New Roman', Times, serif;
+  font-family:  "Droid Serif Mono + Montserrat";
   font-style: normal;
+  font-weight: 900;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;

@@ -11,3 +11,25 @@
   font-weight: 400;
   src: url('./pacifico/Pacifico-Regular.ttf');
 }
+
+@font-face {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("./Montserrat-Black.ttf") format("truetype");
+}
+
