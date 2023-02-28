@@ -1,9 +1,9 @@
 import React from "react";
-
+import Introduction from "./introduction/Introduction";
 export function Main() {
   return (
     <main>
-      <h1>Main Section</h1>
+      <Introduction/>
       <section>Section 1</section>
       <section>Section 2</section>
       <section>Section 3</section>
