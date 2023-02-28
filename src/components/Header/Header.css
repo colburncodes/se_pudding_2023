@@ -1,23 +1,32 @@
 .header {
   display: flex;
-  height: 25vh;
-  width: 1000px;
+  max-width: 1280px;
+  justify-content: center;
+  margin: 0;
 }
 
 .header__container {
+  max-width: 100%;
+  box-sizing: border-box;
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  margin: 25px;
-}
-
-.header__logo {
-  width: 25%;
-  left: -350px;
-  position: relative;
+  padding: 20px 0 0 450px;
 }
 
 .header__title {
-  display: flex;
-  position: relative;
-  flex-direction: row;
+  font-family: "Dancing Script", "Pacifico";
+  font-size: 50px;
+  line-height: 1.1;
+  margin: auto 0;
+  color: #424B85;
+  margin: 0;
+}
+
+
+.logo {
+  max-width: 150px;
+  padding: 0 0 0 20px;
+  margin: 0;
+  
 }

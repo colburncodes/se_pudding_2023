@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./dancingscript/DancingScript-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: url('./pacifico/Pacifico-Regular.ttf');
+}
