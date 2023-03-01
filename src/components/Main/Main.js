@@ -1,5 +1,5 @@
 import React from "react";
-import Introduction from "./Introduction/Introduction";
+import Introduction from "./Introduction/Introduction.js";
 export function Main() {
   return (
     <>
