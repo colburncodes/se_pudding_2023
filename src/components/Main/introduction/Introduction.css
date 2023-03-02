@@ -1,27 +1,74 @@
-.introdution {
+.introduction {
   max-width: 100%;
   display: flex;
   justify-content: space-evenly;
+  margin: 0 0 50px 0;
 }
 
-.introduction__title {
-  font-family: "Droid Serif Mono + Montserrat";
-  font-style: normal;
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 20px;
-  color: #F48498;
-}
-
-.introduction__descrition-containeer {
-  max-width: 500px;
+.introduction__description-container {
+  display: flex;
+  width: 591px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  top: -106px;
+  justify-content: space-between;
+  /* max-width: calc(550px - 20px) */
 }
 
 .introduction__description {
-  font-family:  "Droid Serif Mono + Montserrat";
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-family: "Droid Serif Mono + Montserrat";
   font-style: normal;
-  font-weight: 900;
-  font-size: 16px;
   font-weight: 500;
-  line-height: 20px;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #f48498;
+}
+
+@media screen and (max-width: 820px) {
+  .introduction {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .introduction__description-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .introduction__description {
+    max-width: 820px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .introduction {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .introduction__description-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .introduction__description {
+    display: flex;
+    flex-direction: column;
+    font-size: 33px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 143px;
+  }
 }
