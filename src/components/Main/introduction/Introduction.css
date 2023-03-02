@@ -1,27 +1,29 @@
-.introdution {
+.introduction {
   max-width: 100%;
   display: flex;
   justify-content: space-evenly;
+  margin: 0 0 50px 0;
 }
 
 .introduction__title {
   font-family: "Droid Serif Mono + Montserrat";
   font-style: normal;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: bold;
   line-height: 20px;
   color: #F48498;
 }
 
 .introduction__descrition-containeer {
-  max-width: 500px;
+  max-width: calc(550px - 20px)
 }
 
 .introduction__description {
   font-family:  "Droid Serif Mono + Montserrat";
   font-style: normal;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 20px;
+  text-align: left;
 }

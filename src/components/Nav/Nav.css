@@ -1,0 +1,77 @@
+.nav {
+  max-width: 160px;
+  position: fixed;
+  top: 150px;
+  right: 10px;
+  background:#ACD8AA;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 35px;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__lists {
+  list-style: none;
+  padding: 0 10px 0 10px;
+  margin: 0;
+ 
+}
+
+.nav__list {
+  margin-bottom: 60px;
+
+}
+
+.nav__list:first-of-type {
+  margin-bottom: 25px;
+  border-bottom: #06416B 2px solid;
+  padding: 0;
+}
+
+.nav__list:last-of-type {
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-family:  "Droid Serif Mono + Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+.nav__link_header {
+  width: 150px;
+}
+
+.nav__link-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.footer__link {
+border-top: #06416B 2px solid;
+padding: 20px 0 0 0 ;
+display: flex;
+justify-content: center;
+}
+@media all and (max-width: 880px) {
+  .nav {
+    display: none;
+  }
+}
