@@ -1,7 +1,7 @@
 import "./Introduction.css";
 function Introduction() {
   return (
-    <section class="introdution">
+    <section class="introduction" id="introduction">
       <h2 class="introduction__title">Introduction :</h2>
       <div class="introduction__descrition-containeer">
         <p class="introduction__description">
