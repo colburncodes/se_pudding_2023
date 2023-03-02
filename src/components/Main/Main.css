@@ -12,7 +12,7 @@
   margin: 0 0 100px 0;
 }
 
-.main__graph-one{
+.main__graph-one {
   width: 1280px;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@
   font-size: 30px;
   font-weight: bold;
   line-height: 20px;
-  color: #F48498;
+  color: #f48498;
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -39,7 +39,7 @@
 .graph__description {
   max-width: 700px;
   text-align: center;
-  font-family:  "Droid Serif Mono + Montserrat";
+  font-family: "Droid Serif Mono + Montserrat";
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
@@ -47,7 +47,6 @@
   line-height: 20px;
   text-align: left;
 }
-
 
 .main__graph-two {
   display: flex;
@@ -80,14 +79,37 @@
     display: flex;
     justify-content: center;
   }
-  
+
   .main__graph-four {
     display: flex;
     justify-content: center;
   }
-
-
-
 }
 
+@media screen and (max-width: 480px) {
+  .main {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
+  .main__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__graph {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__graph-two {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__graph-four {
+    display: flex;
+    justify-content: center;
+  }
+}

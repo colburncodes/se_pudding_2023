@@ -1,15 +1,17 @@
 .nav {
   max-width: 160px;
   position: fixed;
-  top: 150px;
+  top: 50px;
   right: 10px;
-  background:#ACD8AA;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: #acd8aa;;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
   border-radius: 35px;
   text-align: center;
   margin: 0;
   display: flex;
   justify-content: center;
+  height: 50vh;
+  padding: 15px;
 }
 
 .nav__lists {
@@ -55,7 +57,8 @@
 }
 
 .nav__link_header {
-  width: 150px;
+  width: 139px;
+    height: 144px;
 }
 
 .nav__link-icon {
@@ -70,6 +73,8 @@ padding: 20px 0 0 0 ;
 display: flex;
 justify-content: center;
 }
+
+
 @media all and (max-width: 880px) {
   .nav {
     display: none;
