@@ -28,13 +28,9 @@ export function Main() {
             <h2 className="graph__title">Self Grading :</h2>
             <div className="graph__descrition-container">
               <p className="graph__description">
-                It's important to understand that race is a complex topic, and
-                there is no single definition that can accurately capture the
-                experiences and identities of all individuals. However, in a
-                speed dating setting, it can be helpful to have a basic
-                understanding of the racial backgrounds and cultures of the
-                people you may meet. You may encounter individuals of Asian,
-                African, Latino, European, or other races.
+                People graded themselves on a scale of 1-10 for these same qualities. 
+                We would have thought that the high match group would have had higher scores for attractive or fun. 
+                Surprisingly, people with no matches and high matches graded themselves similarly for all qualities, especially sincere. LOL!
               </p>
             </div>
           </section>
