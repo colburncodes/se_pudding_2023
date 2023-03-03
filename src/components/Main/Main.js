@@ -1,6 +1,6 @@
 import React from "react";
 import Introduction from "./Introduction/Introduction";
-import { Goals } from "../Goals/Goals";
+
 export function Main() {
   return (
     <>
@@ -35,7 +35,6 @@ export function Main() {
                 African, Latino, European, or other races.
               </p>
             </div>
-            {/* <Goals /> */}
           </section>
 
           <section className="main__graph main__graph-three" id="attribute">
