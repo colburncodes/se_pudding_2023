@@ -2,6 +2,10 @@ import React from "react";
 import Introduction from "./Introduction/Introduction";
 import { RadarChart } from "../../components/Chart/RadarChart";
 import { QualitiesChart } from "../../components/Chart/QualitiesChart";
+import {SelfGradingChart} from "../../components/Chart/SelfGradingChart";
+import { RaceChart } from "../../components/Chart/RaceChart";
+import Summary from "./Summary/Summary";
+
 
 export function Main() {
   return (
@@ -9,43 +13,90 @@ export function Main() {
       <Introduction />
       <main className="main">
         <div className="main__container">
-          <section className="main__graph main__graph-one" id="racechart">
-            <div className="graph__descrition-container">
-              <h2 className="graph__title">Race :</h2>
+
+        <section className="main__graph main__last-three" id="age">
+            <div className="graph__descrition-container focus_description-container">
+              <h2 className="graph__title">
+                Focus
+              </h2>
               <p className="graph__description">
-                It's important to understand that race is a complex topic, and
-                there is no single definition that can accurately capture the
-                experiences and identities of all individuals. However, in a
-                speed dating setting, it can be helpful to have a basic
-                understanding of the racial backgrounds and cultures of the
-                people you may meet. You may encounter individuals of Asian,
-                African, Latino, European, or other races.
+                For our analysis, we explored the responses to 3 survey questions:
               </p>
+
+              <ul>
+                <li className="focus__list">
+                  <p className="graph__description">
+                  What qualities are you looking for in a partner?
+
+                  </p>
+                </li>
+
+                <li className="focus__list">
+                  <p className="graph__description">
+                  How do you grade yourself on those qualities?
+
+                  </p>
+                </li>
+
+                <li className="focus__list">
+                  <p className="graph__description">
+                  What is your primary goal in participating in this event?
+
+                  </p>
+                </li>
+              </ul>
+
+              <p className="graph__description">
+                Since at events #6-9 some of the questions were scaled differently, 
+                we excluded these events and focused on 17 events. 
+                These included 449 participants for our analysis.
+              </p>
+
+              <p className="graph__description">
+                Each participant received a total of 0 to 14 matches through all of the events. 
+                Most people received 0-2 matches. Only 32 people received 7 matches or more. 
+                In fact, 84 people got no matches!!
+              </p>
+            </div>
+            <div className="graph__bar-container graph__focus-container">
+              <QualitiesChart />
+
+              <p className="graph__description">
+                We compared the responses to these 3 questions of two extreme groups:
+                people with no matches (1.2% of participants) and people who received 7 matches or more (0.45%). 
+               </p>
             </div>
           </section>
 
-          <section className="main__graph main__graph-two" id="selfgrading">
-            <h2 className="graph__title">Self Grading :</h2>
-            <div className="graph__descrition-container">
+          <section className="main__graph main__graph_Demo-Race" id="racechart">
+
+            <div className="Demo__container">
+              <div className="graph__bar-container">
+                {/* demographic  */}
+              </div>
               <p className="graph__description">
-                It's important to understand that race is a complex topic, and
-                there is no single definition that can accurately capture the
-                experiences and identities of all individuals. However, in a
-                speed dating setting, it can be helpful to have a basic
-                understanding of the racial backgrounds and cultures of the
-                people you may meet. You may encounter individuals of Asian,
-                African, Latino, European, or other races.
+                Average age was 26, with a range from 18-55. Most singles were college age. Gender was 50% male and 50% female.
               </p>
             </div>
+           
+            <div className="race__container">
+              <div className="graph__pie-container">
+                <RaceChart />
+              </div>
+              <p className="graph__description">
+                Race was grouped into 5 categories. Most participants were European/Caucasian-American (56%) or Asian (24%).
+              </p>
+            </div>
+           
           </section>
 
-          <section className="main__graph main__graph-three" id="attribute">
-            <h2 className="graph__title__primary-goal">
-              Qualities Looking for in a Partner:
-            </h2>
+          <section className="main__graph main__last-three" id="age">
             <div className="graph__descrition-container">
+              <h2 className="graph__title">
+                Qualities Looking for in a Partner:
+              </h2>
               <p className="graph__description">
-                People with more matches ranked attractive and intelligent as
+               People with more matches ranked attractive and intelligent as
                 slightly more important than people with no matches. On the
                 other hand, qualities that are difficult to see on a speed
                 dating event such as sincere and ambitious were slightly more
@@ -61,26 +112,27 @@ export function Main() {
             </div>
           </section>
 
-          <section className="main__graph main__graph-four" id="age">
-            <h2 className="graph__title">Age :</h2>
+          <section className="main__graph main__last-three" id="age">
             <div className="graph__descrition-container">
+            <h2 className="graph__title">
+              Self Grading
+            </h2>
               <p className="graph__description">
-                It's important to understand that race is a complex topic, and
-                there is no single definition that can accurately capture the
-                experiences and identities of all individuals. However, in a
-                speed dating setting, it can be helpful to have a basic
-                understanding of the racial backgrounds and cultures of the
-                people you may meet. You may encounter individuals of Asian,
-                African, Latino, European, or other races.
+              People graded themselves on a scale of 1-10 for these same qualities. 
+                We would have thought that the high match group would have had higher scores for attractive or fun. 
+                Surprisingly, people with no matches and high matches graded themselves similarly for all qualities, especially sincere. LOL!
               </p>
+            </div>
+            <div className="graph__bar-container">
+            <SelfGradingChart />
             </div>
           </section>
 
-          <section className="main__graph main__graph-four" id="age">
-            <h2 className="graph__title__primary-goal">
+          <section className="main__graph main__last-three" id="age">
+            <div className="graph__descrition-container">
+            <h2 className="graph__title">
               Primary Goal in Participating in this Event
             </h2>
-            <div className="graph__descrition-container">
               <p className="graph__description">
                 People were asked “What is your primary goal in participating in
                 this event?“ Interestingly, “Meet new people” and “Fun night
@@ -96,8 +148,11 @@ export function Main() {
               <RadarChart />
             </div>
           </section>
+          
         </div>
       </main>
+
+      <Summary />
     </>
   );
 }
