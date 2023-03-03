@@ -40,10 +40,6 @@
   margin: 0 120px 0 0;
 }
 
-.graph__pie-container {
-  margin: 0 0 30px 0;
-}
-
 .graph__descrition-container {
   display: flex;
   flex-direction: column;
@@ -87,9 +83,9 @@
 
 
 .graph__pie-container {
-  min-width: 400px;
-  left: 700px;
+  min-width: 300px;
   display: flex;
+  margin: 0 0 30px 0;
 }
 
 .graph__chart-container {
