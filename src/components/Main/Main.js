@@ -4,6 +4,7 @@ import { RadarChart } from "../../components/Chart/RadarChart";
 import { QualitiesChart } from "../../components/Chart/QualitiesChart";
 import {SelfGradingChart} from "../../components/Chart/SelfGradingChart";
 import { RaceChart } from "../../components/Chart/RaceChart";
+import Summary from "./Summary/Summary";
 
 
 export function Main() {
@@ -15,7 +16,7 @@ export function Main() {
 
         <section className="main__graph main__last-three" id="age">
             <div className="graph__descrition-container focus_description-container">
-              <h2 className="graph__title_bar-radar">
+              <h2 className="graph__title">
                 Focus
               </h2>
               <p className="graph__description">
@@ -71,14 +72,14 @@ export function Main() {
 
             <div className="Demo__container">
               <div className="graph__bar-container">
-                <RaceChart />
+                {/* demographic  */}
               </div>
               <p className="graph__description">
                 Average age was 26, with a range from 18-55. Most singles were college age. Gender was 50% male and 50% female.
               </p>
             </div>
            
-            <div className="Race__container">
+            <div className="race__container">
               <div className="graph__pie-container">
                 <RaceChart />
               </div>
@@ -91,7 +92,7 @@ export function Main() {
 
           <section className="main__graph main__last-three" id="age">
             <div className="graph__descrition-container">
-              <h2 className="graph__title_bar-radar">
+              <h2 className="graph__title">
                 Qualities Looking for in a Partner:
               </h2>
               <p className="graph__description">
@@ -113,7 +114,7 @@ export function Main() {
 
           <section className="main__graph main__last-three" id="age">
             <div className="graph__descrition-container">
-            <h2 className="graph__title_bar-radar">
+            <h2 className="graph__title">
               Self Grading
             </h2>
               <p className="graph__description">
@@ -129,7 +130,7 @@ export function Main() {
 
           <section className="main__graph main__last-three" id="age">
             <div className="graph__descrition-container">
-            <h2 className="graph__title_bar-radar">
+            <h2 className="graph__title">
               Primary Goal in Participating in this Event
             </h2>
               <p className="graph__description">
@@ -150,6 +151,8 @@ export function Main() {
           
         </div>
       </main>
+
+      <Summary />
     </>
   );
 }

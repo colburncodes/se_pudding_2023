@@ -22,6 +22,10 @@
   margin: 0 0 100px 0;
 }
 
+.main__graph:last-of-type {
+ margin: 0;
+}
+
 .graph__focus-container {
   display: flex;
   flex-direction: column;
@@ -34,6 +38,10 @@
 
 .Demo__container {
   margin: 0 120px 0 0;
+}
+
+.graph__pie-container {
+  margin: 0 0 30px 0;
 }
 
 .graph__descrition-container {
@@ -49,18 +57,6 @@
 }
 
 .graph__title {
-  font-family: "Droid Serif Mono + Montserrat";
-  font-style: normal;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 20px;
-  color: #f48498; /* #acd8aa */
-  text-align: center;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.graph__title_bar-radar {
   font-family: "Droid Serif Mono + Montserrat";
   font-style: normal;
   font-size: 30px;
@@ -87,6 +83,8 @@
   display: flex;
   justify-content: space-around;
 }
+
+
 
 .graph__pie-container {
   min-width: 400px;
