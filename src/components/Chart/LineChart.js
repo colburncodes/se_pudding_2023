@@ -37,7 +37,7 @@ export function LineChart() {
     },
   };
 
-  const labels = ["20", "25", "30", "40", "50", "55"];
+  const labels = ["0", "20", "25", "30", "40", "50", "55"];
 
   const data = {
     labels,
@@ -45,9 +45,9 @@ export function LineChart() {
       {
         fill: true,
         label: "age",
-        data: [20, 690, 500, 50, 15, 2],
-        borderColor: "rgb(53, 162, 235)",
-        backgroundColor: "rgba(53, 162, 235, 0.5)",
+        data: [0, 30, 690, 500, 50, 15, 2],
+        borderColor: "rgb(172, 216, 170, 0.2)",
+        backgroundColor: "rgba(172, 216, 170, 0.5)",
       },
     ],
   };
