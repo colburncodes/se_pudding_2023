@@ -1,0 +1,44 @@
+{
+  "participants": {
+    "0": "0",
+    "1": "10",
+    "2": "fun night out",
+    "3": "fun night out",
+    "4": "say I did it",
+    "5": "say I did it",
+    "6": "other",
+    "7": "other",
+    "8": "get a date",
+    "9": "get a date",
+    "10": "looking for a serious relationship",
+    "11": "looking for a serious relationship"
+  },
+  "match": {
+    "0": "0",
+    "1": "1",
+    "2": "no_match",
+    "3": "high_match",
+    "4": "no_match",
+    "5": "high_match",
+    "6": "no_match",
+    "7": "high_match",
+    "8": "no_match",
+    "9": "high_match",
+    "10": "no_match",
+    "11": "high_match"
+  },
+  "percentage": {
+    "0": 100,
+    "1": 125,
+    "2": 4.4,
+    "3": 5.3,
+    "4": 0.5,
+    "5": 0.6,
+    "6": 0.6,
+    "7": 0.3,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0
+  }
+}
