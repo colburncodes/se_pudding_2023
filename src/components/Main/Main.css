@@ -79,9 +79,10 @@
 }
 
 .graph__pie-container {
-  min-width: 300px;
+  width: 300px;
   display: flex;
-  margin: 0 0 30px 0;
+  margin-left: 70px;
+  margin-bottom: 33px;
 }
 
 .graph__chart-container {
