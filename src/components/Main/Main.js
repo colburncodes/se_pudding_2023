@@ -55,7 +55,7 @@ export function Main() {
               </p>
             </div>
             <div className="graph__bar-container graph__focus-container">
-              <div className="graph__bar-container">
+              <div className="graph__horizontal-container">
                 <HorizontalChart />
               </div>
               <p className="graph__description">
