@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/se_pudding_2023/static/css/main.161f2791.css",
-    "main.js": "/se_pudding_2023/static/js/main.3037a1b6.js",
+    "main.css": "/se_pudding_2023/static/css/main.86cee730.css",
+    "main.js": "/se_pudding_2023/static/js/main.819075ae.js",
     "static/js/787.a726f54c.chunk.js": "/se_pudding_2023/static/js/787.a726f54c.chunk.js",
     "static/media/Pacifico-Regular.ttf": "/se_pudding_2023/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
     "static/media/Montserrat-Medium.ttf": "/se_pudding_2023/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
@@ -10,12 +10,12 @@
     "static/media/DancingScript-Bold.ttf": "/se_pudding_2023/static/media/DancingScript-Bold.72fc35f38c2864ca2cd5.ttf",
     "static/media/header_logo.png": "/se_pudding_2023/static/media/header_logo.eb6b71cef573b4ca38dc.png",
     "index.html": "/se_pudding_2023/index.html",
-    "main.161f2791.css.map": "/se_pudding_2023/static/css/main.161f2791.css.map",
-    "main.3037a1b6.js.map": "/se_pudding_2023/static/js/main.3037a1b6.js.map",
+    "main.86cee730.css.map": "/se_pudding_2023/static/css/main.86cee730.css.map",
+    "main.819075ae.js.map": "/se_pudding_2023/static/js/main.819075ae.js.map",
     "787.a726f54c.chunk.js.map": "/se_pudding_2023/static/js/787.a726f54c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.161f2791.css",
-    "static/js/main.3037a1b6.js"
+    "static/css/main.86cee730.css",
+    "static/js/main.819075ae.js"
   ]
 }
