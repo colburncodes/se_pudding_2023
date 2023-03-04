@@ -40,14 +40,27 @@ export function HorizontalChart() {
     },
   };
 
-  const labels = ["14", "12", "10", "8", "6", "5", "4", "3", "2", "1", "0"];
+  const labels = [
+    "14",
+    "12",
+    // "11",
+    "10",
+    "8",
+    "6",
+    "5",
+    "4",
+    "3",
+    "2",
+    "1",
+    "0",
+  ];
 
   const data = {
     labels,
     datasets: [
       {
         label: "participants",
-        data: [2, 5, 8, 15, 10, 22, 38, 45, 65, 118, 125, 100],
+        data: [2, 5, 5, 15, 25, 38, 45, 65, 118, 125, 100, 125],
         borderColor: "rgb(255, 99, 132)",
         backgroundColor: "rgba(255, 99, 132, 0.5)",
       },
