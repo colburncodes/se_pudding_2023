@@ -111,7 +111,7 @@
   .graph__description {
     display: flex;
     position: relative;
-    top: 3px;
+    top: 36px;
     left: 28px;
     max-width: 800px;
     text-align: center;
@@ -122,12 +122,31 @@
     text-align: left;
   }
 
-  .graph__chart-container {
-    width: 500px;
+  .graph__descrition-container {
+    max-width: 700px;
     display: flex;
-    left: 165px;
+    flex-direction: column;
+    text-align: left;
     position: relative;
-    top: 30px;
+    top: -26px;
+}
+
+  .graph__chart-container {
+    box-sizing: border-box;
+    display: block;
+    height: 400px;
+    width: 425px;
+    display: flex;
+    margin-left: 175px;
+    margin-top: 56px;
+  }
+
+  .graph__pie-container {
+    height: 300px;
+    min-width: 300px;
+    display: flex;
+    margin-left: 175px;
+    margin-top: 56px;
   }
 
   .graph__title {
@@ -143,7 +162,7 @@
     display: flex;
     left: 83px;
     position: relative;
-    top: 30px;
+    top: 22px;
   }
 
   .main__graph {
@@ -180,8 +199,8 @@
     justify-content: center;
   }
 
-  .graph__title {
+  /* .graph__title {
     display: flex;
     justify-content: center;
-  }
+  } */
 }
