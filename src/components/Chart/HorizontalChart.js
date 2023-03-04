@@ -40,20 +40,7 @@ export function HorizontalChart() {
     },
   };
 
-  const labels = [
-    "14",
-    "12",
-    // "11",
-    "10",
-    "8",
-    "6",
-    "5",
-    "4",
-    "3",
-    "2",
-    "1",
-    "0",
-  ];
+  const labels = ["14", "12", "10", "8", "6", "5", "4", "3", "2", "1", "0"];
 
   const data = {
     labels,

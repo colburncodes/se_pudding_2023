@@ -68,6 +68,7 @@ export function Main() {
 
           <section className="main__graph main__graph_Demo-Race" id="racechart">
             <div className="Demo__container">
+              <h2 className="graph__title-demo">Demographics</h2>
               <div className="graph__bar-container">
                 <LineChart />
               </div>
@@ -91,7 +92,7 @@ export function Main() {
           <section className="main__graph main__last-three" id="age">
             <div className="graph__descrition-container">
               <h2 className="graph__title">
-                Qualities Looking for in a Partner:
+                Qualities Looking for in a Partner
               </h2>
               <p className="graph__description">
                 People with more matches ranked attractive and intelligent as

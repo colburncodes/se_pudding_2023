@@ -52,6 +52,18 @@
   text-align: left;
 }
 
+.graph__title-demo {
+  font-family: "Droid Serif Mono + Montserrat";
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #acd8aa;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+
 .graph__title {
   font-family: "Droid Serif Mono + Montserrat";
   font-style: normal;
@@ -151,6 +163,12 @@
   }
 
   .graph__title {
+    display: flex;
+    flex-direction: column;
+    left: 27px;
+    position: relative;
+  }
+  .graph__title-demo {
     display: flex;
     flex-direction: column;
     left: 27px;
