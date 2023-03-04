@@ -177,6 +177,71 @@
   }
 }
 
+@media screen and (max-width: 520px) {
+  .main {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__graph {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__last-three {
+    display: flex;
+    justify-content: center;
+  }
+
+  .graph__description {
+    display: flex;
+    position: relative;
+    top: 36px;
+    left: 26px;
+    text-align: center;
+    font-family: "Droid Serif Mono + Montserrat";
+    font-style: normal;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  .graph__pie-container {
+    height: 300px;
+    min-width: 300px;
+    display: flex;
+    margin-left: 85px;
+    margin-top: 56px;
+  }
+
+  .graph__bar-container {
+    width: 400px;
+    left: 700px;
+    display: flex;
+    left: 34px;
+    position: relative;
+    top: 22px;
+  }
+
+  .graph__chart-container {
+    box-sizing: border-box;
+    display: block;
+    height: 400px;
+    width: 425px;
+    display: flex;
+    margin-left: 73px;
+    margin-top: 56px;
+  }
+
+}
+
 @media screen and (max-width: 480px) {
   .main {
     max-width: 100%;
@@ -199,8 +264,4 @@
     justify-content: center;
   }
 
-  /* .graph__title {
-    display: flex;
-    justify-content: center;
-  } */
 }
