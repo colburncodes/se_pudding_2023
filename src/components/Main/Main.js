@@ -14,6 +14,30 @@ export function Main() {
       <Introduction />
       <main className="main">
         <div className="main__container">
+          <section className="main__graph main__last-three">
+            <div className="graph__descrition-container-background">
+              <h2 className="graph__title-background">Background</h2>
+              <p className="graph__description-background">
+                Speed dating is a fun way for singles to meet lots of people at
+                one time. Generally, around 10-40 people participate at at time.
+                Usually women sit at tables and men rotate around these tables
+                on a timed basis so that each woman has the opportunity to meet
+                each man. Each speed date takes around 5 minutes. After each
+                date, each single marks on a card if they would like to meet
+                that person again. If a pair choose each other, it’s a match.
+                They are told who they matched with so they can reach out and
+                set up a date on their own.
+              </p>
+
+              <p className="graph__description-background">
+                Our data was taken from survey responses from 552 singles across
+                21 speed dating events from October 2002 until April 2004. The
+                organizers of the events kept in touch with the singles and
+                surveyed them several times before, during, and after the
+                events.
+              </p>
+            </div>
+          </section>
           <section className="main__graph main__last-three" id="age">
             <div className="graph__descrition-container focus_description-container">
               <h2 className="graph__title">Focus</h2>

@@ -47,7 +47,7 @@ export function QualitiesChart() {
     labels: labels,
     datasets: [
       {
-        label: "no match",
+        label: "no-match",
         data: [
           qualities.percentage[0],
           qualities.percentage[2],
@@ -59,7 +59,7 @@ export function QualitiesChart() {
         backgroundColor: "rgba(172, 216, 170, 0.5)",
       },
       {
-        label: "match",
+        label: "high-match",
         data: [
           qualities.percentage[1],
           qualities.percentage[3],

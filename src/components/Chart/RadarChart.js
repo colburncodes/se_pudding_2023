@@ -33,7 +33,7 @@ export function RadarChart() {
     ],
     datasets: [
       {
-        label: ["high match"],
+        label: ["high-match"],
         data: [
           participation.percentage[1],
           participation.percentage[3],
@@ -51,7 +51,7 @@ export function RadarChart() {
         pointHoverBorderColor: "rgb(231, 143, 142)",
       },
       {
-        label: ["no match"],
+        label: ["no-match"],
         data: [
           participation.percentage[0],
           participation.percentage[2],

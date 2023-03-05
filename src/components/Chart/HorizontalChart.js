@@ -47,7 +47,7 @@ export function HorizontalChart() {
     datasets: [
       {
         label: "participants",
-        data: [2, 5, 5, 15, 25, 38, 45, 65, 118, 125, 100, 125],
+        data: [2, 5, 5, 15, 25, 38, 45, 65, 118, 125, 84, 125],
         borderColor: "rgb(255, 99, 132)",
         backgroundColor: "rgba(255, 99, 132, 0.5)",
       },

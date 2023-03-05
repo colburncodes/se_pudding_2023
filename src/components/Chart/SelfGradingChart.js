@@ -46,7 +46,7 @@ export function SelfGradingChart() {
     labels: labels,
     datasets: [
       {
-        label: "no match",
+        label: "no-match",
         data: [
           selfgrading.percentage[0],
           selfgrading.percentage[2],
@@ -57,7 +57,7 @@ export function SelfGradingChart() {
         backgroundColor: "rgba(172, 216, 170, 0.5)",
       },
       {
-        label: "match",
+        label: "high-match",
         data: [
           selfgrading.percentage[1],
           selfgrading.percentage[3],
