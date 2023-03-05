@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/se_pudding_2023/static/css/main.77566733.css",
-    "main.js": "/se_pudding_2023/static/js/main.153284e9.js",
+    "main.js": "/se_pudding_2023/static/js/main.d064aafd.js",
     "static/js/787.a726f54c.chunk.js": "/se_pudding_2023/static/js/787.a726f54c.chunk.js",
     "static/media/Pacifico-Regular.ttf": "/se_pudding_2023/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
     "static/media/Montserrat-Medium.ttf": "/se_pudding_2023/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
@@ -11,11 +11,11 @@
     "static/media/header_logo.png": "/se_pudding_2023/static/media/header_logo.eb6b71cef573b4ca38dc.png",
     "index.html": "/se_pudding_2023/index.html",
     "main.77566733.css.map": "/se_pudding_2023/static/css/main.77566733.css.map",
-    "main.153284e9.js.map": "/se_pudding_2023/static/js/main.153284e9.js.map",
+    "main.d064aafd.js.map": "/se_pudding_2023/static/js/main.d064aafd.js.map",
     "787.a726f54c.chunk.js.map": "/se_pudding_2023/static/js/787.a726f54c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77566733.css",
-    "static/js/main.153284e9.js"
+    "static/js/main.d064aafd.js"
   ]
 }
