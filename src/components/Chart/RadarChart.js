@@ -35,12 +35,12 @@ export function RadarChart() {
       {
         label: ["high-match"],
         data: [
-          participation.percentage[1],
-          participation.percentage[3],
-          participation.percentage[5],
-          participation.percentage[7],
-          participation.percentage[9],
-          participation.percentage[11],
+          participation.percentage[3], // 3.8
+          participation.percentage[1], // 5.3
+          participation.percentage[5], // .6
+          participation.percentage[7], // .3
+          participation.percentage[9], // 0
+          participation.percentage[11], // 0
         ],
         backgroundColor: "rgba(231, 143, 142, 0.5)",
         borderColor: "rgb(231, 143, 142)",
@@ -53,12 +53,12 @@ export function RadarChart() {
       {
         label: ["no-match"],
         data: [
-          participation.percentage[0],
-          participation.percentage[2],
-          participation.percentage[4],
-          participation.percentage[6],
-          participation.percentage[8],
-          participation.percentage[10],
+          participation.percentage[0], // 4.4
+          participation.percentage[2], // 4.4
+          participation.percentage[4], // 0.5
+          participation.percentage[6], // 0.6
+          participation.percentage[8], // 0
+          participation.percentage[10], // 0
         ],
         backgroundColor: "rgba(172, 216, 170, 0.2)",
         borderColor: "rgb(172, 216, 170)",
