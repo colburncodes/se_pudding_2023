@@ -45,7 +45,7 @@ export function LineChart() {
       {
         fill: true,
         label: "age",
-        data: [0, 30, 690, 500, 50, 15, 2],
+        data: [0, 30, 500, 50, 15, 2, 5],
         borderColor: "rgb(172, 216, 170, 0.2)",
         backgroundColor: "rgba(172, 216, 170, 0.5)",
       },
